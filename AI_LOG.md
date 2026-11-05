@@ -23,3 +23,8 @@
 - Araç: Claude
 - Sorduğum: AI logda Claude ile konuşmamı anlatacağımı, README'de ise bir site fikri belirleyip yapmayı planladıklarımı yazacağımı söyleyip özgün bir konu istedim.
 - Cevap: "Mahalle Takas" site fikri ve buna uygun README ile AI log metni hazırlandı.
+- ## Kayıt 5
+- Tarih: 05.11.2026
+- Araç: Claude
+- Sorduğum: Grupta gelen duyuruyu paylaştım: yarın 15.00'te Fatma Hoca ödev kontrolü var, bu hafta sitenin arayüzü yapılıp GitHub'a yüklenecek. Buna göre ne yapmam gerektiğini sordum.
+- Cevap: Yarına kadar repoyu hazır tutmam, README durumunu güncellemem ve arayüz dosyalarını GitHub'a yüklemem gerektiği anlatıldı.
