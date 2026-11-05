@@ -1,8 +1,25 @@
 # AI Kullanım Günlüğü
 
 ## Kayıt 1
-- Tarih: 23.10.2026
+- Tarih: 05.11.2026
 - Araç: Claude
-- Sorduğum: GitHub'da repo nasıl açılır, README.md ve AI_LOG.md dosyaları nedir ve içine ne yazılır?
-- Cevap: Repo oluşturma adımları, dosyaların ne işe yaradığı ve örnek şablonlar anlatıldı.
-- Nasıl kullandım: Anlatılan adımlara göre depoyu ve dosyaları kendim oluşturdum. Şablonları ödevime göre düzenledim.
+- Sorduğum: Hocanın grupta paylaştığı ödev mesajını gönderip GitHub'da ne yapmam gerektiğini sordum.
+- Cevap: Repo oluşturma adımları ve README ile AI log dosyasının ne işe yaradığı anlatıldı.
+
+## Kayıt 2
+- Tarih: 05.11.2026
+- Araç: Claude
+- Sorduğum: GitHub ekran görüntüsü attım, bildirim sayfasında kaldım ve repo nasıl açılır diye sordum. Sonra AI_LOG.md dosyasının ne olduğunu sordum.
+- Cevap: Bildirim sayfasında yapılacak bir şey olmadığı, repo için + simgesinden New repository seçilmesi gerektiği anlatıldı. AI_LOG.md'nin yapay zeka kullanımını kaydeden bir Markdown dosyası olduğu açıklandı.
+
+## Kayıt 3
+- Tarih: 05.11.2026
+- Araç: Claude
+- Sorduğum: Dosyalara şimdilik bir şey yazıp yazmayacağımı, README ve AI log için kopyalanabilir örnek istedim.
+- Cevap: İki dosya için hazır şablonlar verildi.
+
+## Kayıt 4
+- Tarih: 05.11.2026
+- Araç: Claude
+- Sorduğum: AI logda Claude ile konuşmamı anlatacağımı, README'de ise bir site fikri belirleyip yapmayı planladıklarımı yazacağımı söyleyip özgün bir konu istedim.
+- Cevap: "Mahalle Takas" site fikri ve buna uygun README ile AI log metni hazırlandı.
