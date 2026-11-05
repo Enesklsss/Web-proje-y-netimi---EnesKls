@@ -1,12 +1,21 @@
-# Web-proje-y-netimi---EnesKls
-# Ödev Deposu
+# Mahalle Takas
 
-Bu depo, ders kapsamında verilen ödev için GitHub üzerinde oluşturulmuştur.
+## Proje Fikri
+Mahalle Takas, aynı mahallede yaşayan insanların kullanmadığı eşyaları birbiriyle takas edebileceği bir web sitesi olacak. Amaç, işe yaramayan eşyaların çöpe gitmesi yerine ihtiyacı olan birine ulaşmasını sağlamak.
+
+## Planlanan Özellikler
+- Eşya ekleme sayfası (fotoğraf, açıklama, mahalle bilgisi)
+- Eşyaları mahalleye ve kategoriye göre listeleme
+- Takas teklifi gönderme
+- Basit ve telefonda rahat kullanılan bir tasarım
+
+## Yapılacaklar
+- Site tasarımının taslağını çıkarmak
+- Ana sayfa ve eşya listeleme sayfasını hazırlamak
+- Eşya ekleme formunu yapmak
 
 ## Durum
-- GitHub hesabı ve depo oluşturuldu.
-- README.md ve AI_LOG.md dosyaları eklendi.
-- Proje içeriği, hoca yönlendirmesine göre daha sonra eklenecektir.
+Proje planlama aşamasındadır. Yapılan ve yapılacak işler bu dosyada güncellenecektir.
 
 ## Kullanılan Araçlar
 - GitHub
