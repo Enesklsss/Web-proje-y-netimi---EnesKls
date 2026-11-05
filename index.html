@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Mahalle Takas</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600&family=Nunito:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="ust">
+    <a class="logo" href="#">🏘️ Mahalle Takas</a>
+    <a class="dugme" href="#ekle">+ Eşya ekle</a>
+  </header>
+
+  <section class="giris">
+    <div class="giris-ic">
+      <h1>Elindeki eşya, komşunun aradığı şey olabilir.</h1>
+      <p>Kullanmadığın şeyleri çöpe atma. Mahallendekilerle takas et, ikiniz de kazanın.</p>
+      <a class="dugme buyuk" href="#esyalar">Eşyalara göz at</a>
+    </div>
+    <svg class="sehir" viewBox="0 0 600 160" aria-hidden="true">
+      <rect x="20" y="70" width="90" height="90" rx="6" fill="#f7a072"/>
+      <polygon points="10,72 65,28 120,72" fill="#e0603b"/>
+      <rect x="50" y="110" width="26" height="50" rx="4" fill="#fff4dc"/>
+      <rect x="140" y="40" width="80" height="120" rx="6" fill="#ffd166"/>
+      <rect x="156" y="58" width="20" height="20" rx="3" fill="#fff4dc"/>
+      <rect x="186" y="58" width="20" height="20" rx="3" fill="#fff4dc"/>
+      <rect x="156" y="92" width="20" height="20" rx="3" fill="#fff4dc"/>
+      <rect x="186" y="92" width="20" height="20" rx="3" fill="#fff4dc"/>
+      <rect x="250" y="85" width="100" height="75" rx="6" fill="#7bd3c1"/>
+      <polygon points="240,87 300,45 360,87" fill="#2a9d8f"/>
+      <rect x="290" y="115" width="22" height="45" rx="4" fill="#fff4dc"/>
+      <rect x="380" y="55" width="75" height="105" rx="6" fill="#ef8fa5"/>
+      <rect x="396" y="72" width="18" height="18" rx="3" fill="#fff4dc"/>
+      <rect x="422" y="72" width="18" height="18" rx="3" fill="#fff4dc"/>
+      <rect x="480" y="95" width="100" height="65" rx="6" fill="#9bb7ff"/>
+      <polygon points="470,97 530,60 590,97" fill="#5b7bd9"/>
+      <circle cx="560" cy="30" r="20" fill="#ffd166"/>
+    </svg>
+  </section>
+
+  <main id="esyalar">
+    <div class="ara">
+      <input id="arama" type="search" placeholder="🔍  Eşya veya mahalle ara">
+    </div>
+    <div class="cipler" id="cipler" role="group" aria-label="Kategoriler"></div>
+
+    <section id="liste" class="liste" aria-live="polite"></section>
+    <p id="bos" class="bos" hidden>Aramana uyan eşya yok. Filtreyi değiştir ya da ilk eşyayı sen ekle! 🎈</p>
+
+    <section id="ekle" class="ekle">
+      <h2>Eşyanı ekle</h2>
+      <p class="not">Doldurman yeterli, eşyan hemen listede görünür.</p>
+      <form id="form">
+        <label>Eşya adı
+          <input name="ad" required maxlength="40" placeholder="Örn. Bisiklet kaskı">
+        </label>
+        <label>Kategori
+          <select name="kategori" required></select>
+        </label>
+        <label>Mahalle
+          <input name="mahalle" required maxlength="30" placeholder="Örn. Kadıköy">
+        </label>
+        <label>Karşılığında ne istersin?
+          <input name="istek" required maxlength="50" placeholder="Örn. Bir kitap">
+        </label>
+        <button class="dugme buyuk" type="submit">Listeye ekle</button>
+      </form>
+    </section>
+  </main>
+
+  <div id="bildirim" class="bildirim" role="status"></div>
+  <footer class="alt">Mahalle Takas · Ders ödevi projesi</footer>
+  <script src="script.js"></script>
+</body>
+</html>

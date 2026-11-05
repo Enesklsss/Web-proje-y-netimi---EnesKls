@@ -1,0 +1,80 @@
+:root {
+  --zemin: #fff8ec;
+  --murekkep: #25344a;
+  --petrol: #2a9d8f;
+  --koyu: #1d6f66;
+  --sari: #ffd166;
+  --mercan: #e0603b;
+  --gri: #66758a;
+}
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body {
+  margin: 0; font-family: "Nunito", "Segoe UI", sans-serif; font-size: 1.05rem;
+  background: var(--zemin); color: var(--murekkep); line-height: 1.55;
+}
+h1, h2, h3, .logo, .dugme { font-family: "Fredoka", "Trebuchet MS", sans-serif; }
+
+.ust {
+  display: flex; justify-content: space-between; align-items: center;
+  padding: 14px 20px; background: var(--petrol);
+}
+.logo { color: #fff; font-size: 1.3rem; font-weight: 600; text-decoration: none; }
+.dugme {
+  display: inline-block; background: var(--sari); color: var(--murekkep);
+  border: 0; border-radius: 999px; padding: 10px 20px; font-size: 1rem; font-weight: 600;
+  text-decoration: none; cursor: pointer; box-shadow: 0 3px 0 rgba(37,52,74,.25);
+  transition: transform .12s, box-shadow .12s;
+}
+.dugme:hover { transform: translateY(-2px); box-shadow: 0 5px 0 rgba(37,52,74,.25); }
+.dugme:active { transform: translateY(2px); box-shadow: 0 1px 0 rgba(37,52,74,.25); }
+.dugme.buyuk { padding: 14px 26px; font-size: 1.1rem; }
+:focus-visible { outline: 3px solid var(--mercan); outline-offset: 3px; }
+
+.giris { background: var(--petrol); color: #fff; padding: 36px 20px 0; overflow: hidden; }
+.giris-ic { max-width: 760px; margin: 0 auto; }
+.giris h1 { font-size: clamp(2rem, 6.5vw, 3.4rem); line-height: 1.1; margin: 0 0 14px; font-weight: 600; }
+.giris p { margin: 0 0 22px; font-size: 1.15rem; max-width: 30em; }
+.sehir { display: block; width: 100%; max-width: 760px; margin: 28px auto 0; }
+
+main { max-width: 960px; margin: 0 auto; padding: 28px 20px 40px; }
+.ara input { border-radius: 999px; padding: 14px 20px; }
+input, select {
+  width: 100%; padding: 11px 14px; font: inherit; color: var(--murekkep);
+  border: 2px solid #ead9bb; border-radius: 12px; background: #fff;
+}
+input:focus, select:focus { border-color: var(--petrol); }
+
+.cipler { display: flex; gap: 8px; flex-wrap: wrap; margin: 16px 0 24px; }
+.cip {
+  font: inherit; font-weight: 700; padding: 8px 16px; border-radius: 999px; cursor: pointer;
+  background: #fff; color: var(--murekkep); border: 2px solid #ead9bb;
+}
+.cip[aria-pressed="true"] { background: var(--murekkep); color: #fff; border-color: var(--murekkep); }
+
+.liste { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 18px; }
+.esya { background: #fff; border-radius: 20px; padding: 18px; box-shadow: 0 4px 0 #ead9bb; display: flex; flex-direction: column; }
+.simge { width: 60px; height: 60px; border-radius: 18px; display: grid; place-items: center; font-size: 2rem; margin-bottom: 12px; }
+.esya h3 { margin: 0 0 6px; font-size: 1.2rem; font-weight: 600; }
+.mahalle { color: var(--gri); font-size: .95rem; }
+.istek { margin: 12px 0 16px; padding: 10px 12px; background: var(--zemin); border-radius: 12px; font-size: .95rem; }
+.esya .dugme { margin-top: auto; align-self: flex-start; padding: 8px 16px; font-size: .95rem; }
+.bos { padding: 24px; background: #fff; border-radius: 16px; text-align: center; }
+
+.ekle { margin-top: 48px; background: #fff; padding: 28px; border-radius: 24px; box-shadow: 0 4px 0 #ead9bb; }
+.ekle h2 { margin: 0 0 4px; font-size: 1.7rem; font-weight: 600; }
+.not { margin: 0 0 20px; color: var(--gri); }
+form { display: grid; gap: 14px; max-width: 460px; }
+label { display: grid; gap: 4px; font-weight: 700; }
+
+.bildirim {
+  position: fixed; left: 50%; bottom: 22px; transform: translate(-50%, 90px);
+  background: var(--murekkep); color: #fff; padding: 12px 20px; border-radius: 999px;
+  opacity: 0; transition: transform .25s, opacity .25s; max-width: 90vw; text-align: center;
+}
+.bildirim.goster { transform: translate(-50%, 0); opacity: 1; }
+.alt { text-align: center; padding: 24px; color: var(--gri); font-size: .9rem; }
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  .dugme, .bildirim { transition: none; }
+}
