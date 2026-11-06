@@ -3,13 +3,15 @@
 ## Proje Fikri
 Mahalle Takas, aynı mahallede yaşayan insanların kullanmadığı eşyaları birbiriyle takas edebileceği bir web sitesi olacak. Amaç, işe yaramayan eşyaların çöpe gitmesi yerine ihtiyacı olan birine ulaşmasını sağlamak.
 
-## Planlanan Özellikler
+## Planlanan Özellikler(0b.01.BETA)
 - Eşya ekleme sayfası (fotoğraf, açıklama, mahalle bilgisi)
 - Eşyaları mahalleye ve kategoriye göre listeleme
 - Takas teklifi gönderme
 - Basit ve telefonda rahat kullanılan bir tasarım
+## Planlanan yenilikler(0b.02.BETA)
+-LOGO,Tasarım , İşlevsellik artıcaktır.
 
-## Yapılacaklar
+## Yapılacaklar(0b.01BETA)
 - Site tasarımının taslağını çıkarmak
 - Ana sayfa ve eşya listeleme sayfasını hazırlamak
 - Eşya ekleme formunu yapmak
@@ -17,6 +19,10 @@ Mahalle Takas, aynı mahallede yaşayan insanların kullanmadığı eşyaları b
 - Proje fikri belirlendi (Mahalle Takas).
 - Sitenin arayüzü bu hafta hazırlanıyor ve GitHub'a yüklenecek.
 - Yapılan ve yapılacak işler bu dosyada güncellenecektir.
+- ## Durum Güncellemesi - 6 KASIM 2026(0B.02BETA)
+- Proje fikrime ek özellikler eklendi
+- Arayüz oluşturuldu
+- takas teklifi pasif olsada text onay durumunda(sıradakı güncellemelerde aktif olucaktır)
 
 ## Durum
 Proje planlama aşamasındadır. Yapılan ve yapılacak işler bu dosyada güncellenecektir.
